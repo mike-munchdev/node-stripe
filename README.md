@@ -3,7 +3,7 @@
 The Node Stripe application is a basic tutorial on using Node, Express and Apollo GraphQL with the third party Stripe api to create and retrieve charges.
 
 ## Demo
-<a href="https://md-node-stripe.herokuapp.com/graphql" target="_blank">Node</a>
+<a href="https://md-node-stripe.herokuapp.com/graphql" target="_blank">Node Stripe</a>
 
 ## Getting Started
 
