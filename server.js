@@ -28,10 +28,11 @@ const http = require('http');
   const httpServer = http.createServer(app);
 
   const PORT = Number(process.env.PORT) || 4003;
+  const ipaddr = process.env.IP || 'localhost';
 
   httpServer.listen({ port: PORT }, async () => {
-    console.log(
-      `🚀 Server ready at http://localhost:${PORT}${server.graphqlPath}`
-    );
+   console.log(
+			`🚀 Server ready at http://${ipaddr}:${PORT}${server.graphqlPath}`
+		);
   });
 })();
